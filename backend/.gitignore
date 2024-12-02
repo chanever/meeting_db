@@ -1,0 +1,15 @@
+.env
+
+# Node.js 기본 무시 설정
+node_modules/
+
+# 로그 파일
+*.log
+
+# 빌드 폴더
+dist/
+build/
+
+# Python 캐시 파일
+__pycache__/
+*.pyc

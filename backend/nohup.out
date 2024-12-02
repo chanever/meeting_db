@@ -1,0 +1,152 @@
+INFO:     Will watch for changes in these directories: ['/root/meeting_db/backend']
+INFO:     Uvicorn running on http://0.0.0.0:3001 (Press CTRL+C to quit)
+INFO:     Started reloader process [5963] using StatReload
+INFO:     Started server process [5965]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+데이터베이스 연결 성공!
+테이블이 이미 존재합니다.
+INFO:     112.214.117.175:53984 - "GET / HTTP/1.1" 200 OK
+INFO:     112.214.117.175:32120 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:32121 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:53983 - "GET / HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54013 - "GET / HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54013 - "GET / HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54193 - "GET / HTTP/1.1" 200 OK
+INFO:     112.214.117.175:32404 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:32149 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5965]
+INFO:     Started server process [6422]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6422]
+INFO:     Stopping reloader process [5963]
+INFO:     Will watch for changes in these directories: ['/root/meeting_db/backend']
+INFO:     Uvicorn running on http://0.0.0.0:3001 (Press CTRL+C to quit)
+INFO:     Started reloader process [2833] using StatReload
+INFO:     Started server process [2835]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+데이터베이스 연결 성공!
+테이블이 이미 존재합니다.
+INFO:     112.214.117.175:54680 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54681 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54681 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54680 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54680 - "GET /meetings/get-record/1 HTTP/1.1" 200 OK
+INFO:     112.214.117.175:31990 - "OPTIONS /meetings/update-record/1 HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54695 - "PUT /meetings/update-record/1 HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54695 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:13333 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:13589 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54784 - "OPTIONS /meetings/delete-record/1 HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54785 - "DELETE /meetings/delete-record/1 HTTP/1.1" 200 OK
+INFO:     112.214.117.175:54785 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:14447 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:14703 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:56640 - "GET / HTTP/1.1" 200 OK
+INFO:     183.107.128.217:15406 - "GET / HTTP/1.1" 200 OK
+INFO:     27.0.238.182:48654 - "GET / HTTP/1.1" 200 OK
+INFO:     112.214.117.175:37912 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     112.214.117.175:37913 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     27.0.238.182:44956 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     117.111.1.239:61086 - "GET / HTTP/1.1" 200 OK
+INFO:     117.111.1.239:61086 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     211.231.103.91:35556 - "GET / HTTP/1.1" 200 OK
+INFO:     117.111.1.239:18682 - "GET / HTTP/1.1" 200 OK
+INFO:     117.111.1.239:18682 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     117.111.1.239:7663 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     117.111.1.239:7663 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     117.111.1.239:14350 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     117.111.1.239:14350 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     117.111.1.239:47754 - "OPTIONS /meetings/delete-all-records/ HTTP/1.1" 200 OK
+INFO:     117.111.1.239:47754 - "DELETE /meetings/delete-all-records/ HTTP/1.1" 200 OK
+INFO:     117.111.1.239:47754 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     106.101.130.198:39552 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     106.101.130.198:39552 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     27.0.238.181:40436 - "GET / HTTP/1.1" 200 OK
+INFO:     27.0.238.117:41626 - "GET / HTTP/1.1" 200 OK
+INFO:     223.38.73.156:53706 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     223.38.73.156:53713 - "GET / HTTP/1.1" 200 OK
+INFO:     211.231.103.91:41886 - "GET / HTTP/1.1" 200 OK
+INFO:     211.231.103.104:51436 - "GET / HTTP/1.1" 200 OK
+INFO:     118.235.3.219:59550 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     118.235.3.219:59550 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     118.235.3.219:12884 - "GET / HTTP/1.1" 200 OK
+INFO:     118.235.3.219:12884 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.235.3.219:48906 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     118.235.3.219:48906 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     27.0.238.186:57582 - "GET / HTTP/1.1" 200 OK
+INFO:     27.0.238.181:36208 - "GET / HTTP/1.1" 200 OK
+INFO:     163.239.255.151:53530 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     163.239.255.151:53530 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     163.239.255.151:53724 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     163.239.255.151:53724 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     211.231.103.92:40880 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     163.239.255.151:52348 - "GET / HTTP/1.1" 200 OK
+INFO:     163.239.255.151:52348 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.0.238.70:39156 - "GET / HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'createtable.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2835]
+INFO:     Started server process [36203]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36203]
+INFO:     Started server process [36204]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'test/save_record_test.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36204]
+WARNING:  StatReload detected changes in 'test/s3bucket_test.py'. Reloading...
+INFO:     Started server process [36284]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'test/get_record.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36284]
+WARNING:  StatReload detected changes in 'test/get_all_records.py'. Reloading...
+WARNING:  StatReload detected changes in 'test/delete_record.py'. Reloading...
+INFO:     Started server process [36287]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'test/delete_all_records.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36287]
+INFO:     Started server process [36288]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+데이터베이스 연결 성공!
+테이블이 이미 존재합니다.
+INFO:     183.107.128.217:36261 - "GET / HTTP/1.1" 200 OK
+INFO:     183.107.128.217:64921 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:35861 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     183.107.128.217:64924 - "GET /meetings/get-record/1 HTTP/1.1" 200 OK
+INFO:     183.107.128.217:64924 - "OPTIONS /meetings/update-record/1 HTTP/1.1" 200 OK
+INFO:     183.107.128.217:36373 - "PUT /meetings/update-record/1 HTTP/1.1" 200 OK
+INFO:     183.107.128.217:36373 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
+INFO:     223.38.73.6:57641 - "GET /meetings/get-all-records/ HTTP/1.1" 200 OK
